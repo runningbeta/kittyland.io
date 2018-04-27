@@ -2,7 +2,7 @@
   "name": "kittyland.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://runningbeta.github.io/kittyland.io",
+  "homepage": "https://kittyland-io.netifly.com",
   "dependencies": {
     "material-ui": "^1.0.0-beta.43",
     "react": "^16.3.2",
