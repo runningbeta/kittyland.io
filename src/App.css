@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+  background-image: url("./assets/congruent_pentagon.png");
+  background-repeat: repeat;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.space-background {
+  background-image: url("./assets/home-background.png");
+  background-size: cover;
+  background-position: center center;
+  margin-top: -64px;
+  padding-top: 64px;
+}
+
+.page-background {
+  padding-top: 0px;
+  padding-bottom: 64px;
+  flex: 1;
+}
+
+.home-bucket.bucket .bucketSides {
+  box-sizing: content-box;
+  top: calc(-95% - 1.6vmin);
+  height: calc(90% + 1.6vmin);
+  width: calc(100% - 1.6vmin);
+  border: 0.8vmin solid #444;
+}
+
+.home-bucket.bucket .cabin {
+  border-bottom-left-radius: 6vh;
+  border-bottom-right-radius: 6vh;
+}
+
+.sankey .node rect {
+  fill: #3f51b5;
+  shape-rendering: crispEdges;
+}
+
+.sankey .link {
+  stroke: #f50057;
+  stroke-opacity: 0.4;
+  fill: none;
+}
+
+.sankey .link:hover {
+  stroke-opacity: 0.6;
+  cursor: pointer;
+}
+
+.sankey .node {
+  fill-opacity: 0.7;
+}
+
+.sankey .node:hover {
+  cursor: pointer;
+  fill-opacity: 1;
+}
+
+.sankey .node text {
+  fill: #444;
+  stroke: none;
+  font-size: 0.8em;
+}
+
+.sankey .clearFix {
+  clear: both;
+}
+
+.sankey .chart {
+  margin-bottom: 20px;
+}
+
+.sankey .legend {
+  background-color: #fcf8e3;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  color: #666;
+}

@@ -1,0 +1,146 @@
+#material-background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #67daff;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+#material-background .material-rectangle-left {
+  position: absolute;
+  height: calc(380% + 920px);
+  margin-top: -420px;
+  width: 30%;
+  left: -10%;
+  top: -100%;
+}
+
+#material-background .material-rectangle-right {
+  position: absolute;
+  height: calc(380% + 920px);
+  margin-top: -420px;
+  width: 30%;
+  right: -10%;
+  top: -100%;
+}
+
+.material-circle-small {
+  margin-top: -30px;
+  margin-left: -30px;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background-color: #f50057;
+  position: absolute;
+}
+
+#material-background .material-circle-large {
+  margin-top: -80px;
+  margin-left: -80px;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  background-color: #f50057;
+  position: absolute;
+}
+
+#material-background .material-parallelogram {
+  width: 50%;
+  height: 100%;
+  background: #8591d3;
+  transform: skew(20deg);
+  -webkit-transform: skew(20deg);
+  position: absolute;
+}
+
+#material-background .material-shadow-low {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.21);
+}
+
+#material-background .material-shadow-strong {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.material-shadow-strongest {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+#material-background_div1 {
+  transform: rotate(6deg);
+  width: 277px;
+  background-color: #ffee58;
+}
+
+#material-background_div2 {
+  transform: rotate(38deg);
+  width: 224px;
+  background-color: #009688;
+}
+
+#material-background_div3 {
+  left: 57%;
+  top: 52%;
+  background-color: #007ac1;
+}
+
+#material-background_div4 {
+  transform: rotate(107deg);
+  width: 179px;
+  background-color: #007ac1;
+}
+
+#material-background_div5 {
+  transform: rotate(167deg);
+  width: 242px;
+  background-color: #007ac1;
+}
+
+#material-background_div6 {
+  transform: rotate(33deg);
+  width: 134px;
+  background-color: #ff7043;
+}
+
+#material-background_kitty2 {
+  position: absolute;
+  transform: rotate(256deg);
+  height: calc(380% + 920px);
+  margin-top: -1000px;
+  width: 20%;
+  right: 20%;
+  top: -98%;
+}
+
+#material-background_kitty3 {
+  position: absolute;
+  height: calc(380% + 920px);
+  margin-top: -470px;
+  width: 30%;
+  left: 50%;
+  top: -98%;
+}
+
+#material-background_kitty4 {
+  transform: rotate(21deg);
+  position: absolute;
+  height: calc(380% + 920px);
+  margin-top: -420px;
+  width: 30%;
+  left: -10%;
+  top: -100%;
+}
+
+#material-background_div3 span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 2em;
+}
