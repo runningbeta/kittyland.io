@@ -192,7 +192,7 @@ const App = ({ children, classes, location, theme }) => {
                         variant="raised"
                         color="secondary"
                       >
-                        Comming Soon
+                        Coming Soon
                       </Button>
                     </Grid>
                     <Grid item hidden={{ xsDown: true }} sm={5}>
